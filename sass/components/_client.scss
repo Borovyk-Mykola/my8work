@@ -63,6 +63,9 @@
 
 @media screen and (min-width: 768px) {
     .section-client__li {
+        width: 226px;
+        padding-left: 60px;
+        padding-right: 60px;
 
         &:nth-child(3n+3) {
             margin-right: 0;
