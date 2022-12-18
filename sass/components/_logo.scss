@@ -1,26 +1,22 @@
  /* Лого */
 
- .header-nav__studio {
+.header-nav__studio {
      color: #000000;
      font-family: raleway, sans-serif;
      font-size: 26px;
      line-height: 1.17;
      text-decoration: none;
-     
-    
- }
+}
 
- .footer__studio {
+.footer__studio {
      color: var(--primery-color);
      font-family: raleway, sans-serif;
      font-size: 26px;
      line-height: 1.17;
      text-decoration: none;
+}
 
-     
- }
-
- .header-nav__logo {
+.header-nav__logo {
     color: var(--accent-color);
 }
 
@@ -37,11 +33,5 @@
         margin-top: 26px;
         margin-bottom: 26px;
         font-size: 24px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .header-nav__studio {
-        margin-left: 200px;
     }
 }
