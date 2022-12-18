@@ -47,7 +47,6 @@
 
 @media screen and (min-width: 1200px) {
     .section-client__ul {
-        display: flex;
         justify-content: center;
     }
 
@@ -57,6 +56,30 @@
         margin-right: 30px;
     
         &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-client__li {
+
+        &:nth-child(3n+3) {
+            margin-right: 0;
+        }
+        &:nth-child(n+5) {
+            margin-bottom: 0;
+        }
+        &:nth-child(n+4) {
+            margin-bottom: 0;
+        }
+        
+        &:nth-child(2n+2) {
+            margin-right: 30px;
+        }
+        
+        &:nth-child(n+6) {
+            margin-bottom: 0;
             margin-right: 0;
         }
     }
