@@ -27,7 +27,6 @@
 }
 
 .section-main {
-        min-width: 480px;
         min-height: 400px;
         padding-top: 118px;
         padding-bottom: 118px;
@@ -38,7 +37,7 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../../images/heroes_mobile.jpg);
+            url(../images/heroes_mobile.jpg);
         background-size: 480px 400px;
         margin-left: auto;
         margin-right: auto;
@@ -63,7 +62,7 @@
             background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../../images/heroes_tablet.jpg);
+            url(../images/heroes_tablet.jpg);
             background-size: 768px 400px;
         }
 
@@ -74,7 +73,7 @@
                 background-image: linear-gradient(to right,
                         rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
-                    url(../../images/heroes_tablet2x.jpg);
+                    url(../images/heroes_tablet2x.jpg);
             }
         
         }
@@ -100,7 +99,7 @@
             background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(../../images/heroes_desktop.jpg);
+                url(../images/heroes_desktop.jpg);
             background-size: 1600px 600px;
         }
 
@@ -111,7 +110,7 @@
                 background-image: linear-gradient(to right,
                         rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
-                    url(../../images/heroes_desktop2x.jpg);
+                    url(../images/heroes_desktop2x.jpg);
             }
         }
 
