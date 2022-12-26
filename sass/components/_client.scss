@@ -71,8 +71,9 @@
         padding-top: 94px;
         padding-bottom: 94px;
     }
+    
     .section-client__ul {
-        justify-content: center;
+        flex-wrap: nowrap;
     }
 
     .section-client__ul>.section-client__li {

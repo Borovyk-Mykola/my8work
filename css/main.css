@@ -206,7 +206,7 @@ h2 {
     background-color: var(--primery-color);
     z-index: 999;
   }
-  .header--border {
+  .header--border .container {
     position: relative;
   }
   .js-menu-container.is-open + .menu {
@@ -778,9 +778,8 @@ h2 {
     padding-bottom: 94px;
   }
   .section-client__ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .section-client__ul > .section-client__li {
     padding-left: 31px;
