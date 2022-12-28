@@ -1142,6 +1142,60 @@ h2 {
   color: var(--primery-color);
 }
 
+@media screen and (max-width: 767px) {
+  .section-portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .portfolio-filter {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 91px;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .portfolio-card {
+    display: block;
+  }
+  .portfolio-card .portfolio-card__li {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .portfolio-card .portfolio-card__li :nth-child(n+6) {
+    margin-bottom: 30px;
+  }
+  .portfolio-card .portfolio-card__li:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .portfolio-card__li img {
+    width: 354px;
+    height: 294px;
+  }
+  .portfolio-card .portfolio-card__li:nth-child(2n+2) {
+    margin-right: 0;
+  }
+  .portfolio-card .portfolio-card__li:nth-child(3) {
+    margin-right: 30px;
+  }
+  .portfolio-card .portfolio-card__li:nth-child(7) {
+    margin-bottom: 30px;
+  }
+  .portfolio-card .portfolio-card__li:nth-child(8) {
+    margin-bottom: 30px;
+  }
+  .portfolio-card__title {
+    width: 304px;
+  }
+}
 /*Модальне вікно*/
 .backdrop {
   position: fixed;
