@@ -69,6 +69,7 @@
 
 @media screen and (max-width: 767px) {
     .js-menu-container {
+        background-color:var(--primery-color);
         position: absolute;
         display: block;
         top: 10px;
@@ -77,12 +78,12 @@
         height: 40px;
         padding: 0;
         border: none;
-        background-color: var(--primery-color);
         z-index: 999;
     }
     
     .header--border .container{
         position: relative;
+        width: 100%;
     }
 
     .js-menu-container.is-open+.menu {
@@ -120,12 +121,7 @@
      font-size: 40px;
     }
 
-    .header-nav {
-        position: relative;
-    }
-
     .header-nav__ul {
-        
         margin-left: 40px;
         margin-top: 48px;
     }
@@ -156,9 +152,9 @@
     }
 
     .menu-social {
-        position: absolute;
-        left: 40px;
-        bottom: 48px;
+        margin-top: 466px;
+        margin-bottom: 48px;
+        margin-left: 40px;
         font-size: 18px;
     }
 
