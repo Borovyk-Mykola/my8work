@@ -213,17 +213,21 @@ h2 {
   .js-menu-container.is-open + .menu {
     display: none;
   }
-  .js-menu-container .js-open-menu {
+  .js-menu-container .open-menu {
     display: none;
   }
-  .js-menu-container.is-open .js-close-menu {
+  .js-menu-container.is-open .close-menu {
     display: none;
   }
-  .js-menu-container.is-open .js-open-menu {
+  .js-menu-container.is-open .open-menu {
     display: block;
   }
-  .js-close-menu:hover, .js-close-menu:focus {
+  .js-menu-container:hover .close-menu,
+.js-menu-container:focus .close-menu {
     fill: var(--accent-color);
+  }
+  .js-menu-container:hover .js-close-menu,
+.js-menu-container:focus .js-close-menu {
     cursor: pointer;
   }
   .js-menu-container + .menu {

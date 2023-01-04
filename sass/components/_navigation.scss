@@ -60,7 +60,7 @@
 }
 
 .header--border {
-    border-bottom: 1px solid #ECECEC
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-contact__svg {
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 767px) {
     .js-menu-container {
-        background-color:var(--primery-color);
+        background-color: var(--primery-color);
         position: absolute;
         display: block;
         top: 10px;
@@ -90,24 +90,26 @@
         display: none;
     }
 
-    .js-menu-container .js-open-menu {
+    .js-menu-container .open-menu {
         display: none;
     }
 
-    .js-menu-container.is-open .js-close-menu {
-        display: none;  
+    .js-menu-container.is-open .close-menu {
+        display: none;
     }
 
-    .js-menu-container.is-open .js-open-menu {
+    .js-menu-container.is-open .open-menu {
         display: block;
     }
 
-    .js-close-menu {
-        &:hover,
-        &:focus {
+    .js-menu-container:hover .close-menu, 
+    .js-menu-container:focus .close-menu {
         fill: var(--accent-color);
+    }
+
+    .js-menu-container:hover .js-close-menu,
+    .js-menu-container:focus .js-close-menu {
         cursor: pointer;
-        }
     }
 
     .js-menu-container +.menu {
